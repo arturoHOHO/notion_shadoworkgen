@@ -1,0 +1,37 @@
+#testo
+{
+    position: relative;
+    border: 1px solid black;
+    width: 300px;
+    height: 160px;
+    padding: 30px;
+    margin: 20px;
+    text-align: center;
+    vertical-align: top;
+}
+
+#titolo
+{
+    font-style: oblique;
+}
+
+#bottone
+{
+    position: absolute;
+    bottom: 20px;
+    right: 25%;
+    left: 25%;
+    display: inline-block;
+    border: 1px solid black;
+    max-width: 200px;
+    padding: 10px;
+    text-align: match-parent;
+    vertical-align: bottom;
+    cursor: pointer;
+}
+
+#bottone:hover
+{
+    color: gray;
+    border: 1px solid gray;
+}
